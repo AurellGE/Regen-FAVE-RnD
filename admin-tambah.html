@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./admin-tambah.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="flex">
+        <div class="nav-left flex">
+            <h1 class="toko">Nama Toko</h1>
+            <div class="nav-menu">
+                <a href="admin.html">Produk</a>
+                <a href="user.html">Keranjang</a>
+                <a href="">Histori</a>
+            </div>
+        </div>
+        <div class="nav-right flex">
+            <a href="" class="button">Masuk</a>
+        </div>
+    </nav>
+
+    <form action="" class="margin flex">
+        <div class="form-left flex">
+            <div class="form-name-desc flex">
+                <label for="nama">Nama Produk</label>
+                <input type="text">
+            </div>
+            <div class="form-name-desc flex">
+                <label for="deskripsi">Deskripsi</label>
+                <textarea name="deskripsi" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-left-bottom flex">
+                <div class="form-harga flex">
+                    <label for="harga">Harga</label>
+                    <input type="number">
+                </div>
+                <div class="form-stok flex">
+                    <label for="stok">Stok</label>
+                    <input type="number" name="" id="">
+                </div>
+            </div>
+        </div>
+        <div class="form-right flex">
+            <div class="form-gambar flex">
+                <label for="">Gambar</label>
+                <div>
+                    <img src="./Assets/produk 1.png" alt="">
+                    <img src="./Assets/produk 2.png" alt="">
+                    <input class="upload-img-input" type="file" accept="image/*" src="./Assets/upload.jpg">
+                    <label for="gambar">
+                        <img class="upload-img" src="./Assets/upload.jpg" height="20px" alt="">
+                    </label>
+                </div>
+            </div>
+            <div class="form-right-bottom">
+                <div class="form-publish flex">
+                    <input type="checkbox" name="publish" id="publish">
+                    <label for="publish">Publish on site</label>
+                </div>
+                <div>
+                    <button type="submit" class="button">Submit Item</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</body>
+</html>
