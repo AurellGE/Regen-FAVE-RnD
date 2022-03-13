@@ -10,7 +10,7 @@ form {
     /* width: 25rem; */
     gap: 1.5rem;
 }
-.form-left textarea {
+textarea {
     min-width: 53ch; max-width: 53ch;
     min-height: 10ch; max-height: 20ch;
 }

@@ -53,3 +53,14 @@
     justify-content: flex-end;
     margin-top: 3rem;
 }
+
+
+/* Transaksi */
+#pembayaran {
+    padding-top: 5rem;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+#pembayaran form {
+    gap: 2rem;
+}
