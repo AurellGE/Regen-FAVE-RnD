@@ -86,7 +86,22 @@
                 <h2>Metode Pembayaran</h2>
             </div>
             <div class="sort dropbtn">
-                
+                <div class="custom-select" style="width:200px;">
+                    <select>
+                      <option value="0">Select payment method:</option>
+                      <option value="1">COD (Bayar di Tempat)</option>
+                      <option value="2">Bank BNI</option>
+                      <option value="3">Bank BCA</option>
+                      <option value="4">Bank Mandiri</option>
+                      <option value="5">Bank BRI</option>
+                      <option value="6">Bank Syariah Indonesia</option>
+                      <option value="7">Bank Permata</option>
+                      <option value="8">BRI Direct Debit</option>
+                      <option value="9">BCA OneKlik</option>
+                      <option value="10">Alfamart / Alfamidi / Dan+Dan</option>
+                      <option value="11">Indomaret / i.Saku</option>
+                    </select>
+                  </div>
             </div>
         </div>
         <div class="pembayaran-right">
@@ -96,11 +111,11 @@
             <form action="" class="column">
                 <div class="column">
                     <label for="tanggal">Tanggal</label>
-                    <input type="date">
+                    <input type="date" required>
                 </div>
                 <div class="column">
                     <label for="alamat">Alamat Tujuan</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" required></textarea>
                 </div>
                 <div class="transaksi-btn flex">
                     <Button class="button" type="submit">Bayar</Button>
